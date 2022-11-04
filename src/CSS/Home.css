@@ -48,8 +48,21 @@ nav {
     height: 1.5vw;
 }
 
+footer {
+    display: flex;
+    padding: 1%;
+    justify-content: right;
+    background: #2e2e2e;
+}
+
+.imgfooter {
+    display: flex;
+    justify-content: right;
+}
+
 #imgtg {
-    width: 2.4vw;
+    width: 2.6vw;
+    padding-right: 30%;
 }
 
 #imgmail {
