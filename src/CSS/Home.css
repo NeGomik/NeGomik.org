@@ -15,7 +15,7 @@ nav {
     display: flex;
     list-style-type: none;
     margin: 0%;
-    margin-left: 50%;
+    margin-left: 48%;
 }
 
 .ul {
@@ -36,14 +36,16 @@ nav {
     /* font-size: 1.03vw; */
 }
 
-
-/* .menu1:focus {
+.menu1:focus {
     color: bisque;
     font-size: 1.05vw;
-} */
+}
 
 #logo {
-    width: 2vw;
+    padding: 0.37%;
+    padding-left: 2%;
+    width: 1.5vw;
+    height: 1.5vw;
 }
 
 #imgtg {
