@@ -49,20 +49,23 @@ nav {
 }
 
 footer {
-    display: flex;
     padding: 1%;
-    justify-content: right;
     background: #2e2e2e;
+    padding-bottom: 4%;
+}
+
+#blockimgfooter {
+    padding-right: 3%;
 }
 
 .imgfooter {
-    display: flex;
-    justify-content: right;
+    display: inline;
+    float: right;
 }
 
 #imgtg {
-    width: 2.6vw;
-    padding-right: 30%;
+    padding-left: 30%;
+    width: 2.4vw;
 }
 
 #imgmail {
@@ -70,7 +73,7 @@ footer {
 }
 
 #imgvk {
-    width: 2.3vw;
+    width: 2.2vw;
 }
 
 #imggit {
