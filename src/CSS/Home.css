@@ -1,21 +1,23 @@
 body {
-    background: #808080;
+    background: #171717;
     width: 80%;
     margin: auto;
     padding: 0px;
     font-family: sans-serif;
+    color: white;
+    font-family: Comfortaa Light;
+    src: url("D:\Программирование\NeGomik\src\Comfortaa-VariableFont_wght.ttf") format("ttf")
 }
 
 nav {
     display: flex;
-    background-color: #BEBEBE;
 }
 
 #menu {
     display: flex;
     list-style-type: none;
     margin: 0%;
-    margin-left: 48%;
+    margin-left: 66%;
 }
 
 .ul {
@@ -25,19 +27,12 @@ nav {
 .menu1 {
     text-decoration: none;
     outline: none;
-    color: aqua;
-    padding: 2%;
+    padding: 10%;
     font-size: 1vw;
-}
-
-.menu1:hover {
-    background-color: #C8C8C8;
-    /* color: aquamarine; */
-    /* font-size: 1.03vw; */
+    color: white;
 }
 
 .menu1:focus {
-    color: bisque;
     font-size: 1.05vw;
 }
 
@@ -48,9 +43,48 @@ nav {
     height: 1.5vw;
 }
 
+#name {
+    font-size: 48px;
+}
+
+#developer {
+    font-size: 18px;
+}
+
+#DownloadCV {
+    font-size: 14px;
+}
+
+#about1 {
+    font-size: 48px;
+}
+
+#aboutme {
+    font-size: 18px;
+}
+
+.adres {
+    font-size: 18px;
+}
+
+#whatido1 {
+    font-size: 48px;
+}
+
+.whatidome {
+    font-size: 36px;
+}
+
+#myskills1 {
+    font-size: 48px;
+}
+
+#Getintouch1 {
+    font-size: 48px;
+}
+
 footer {
     padding: 1%;
-    background: #2e2e2e;
     padding-bottom: 4%;
 }
 
