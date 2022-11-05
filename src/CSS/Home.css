@@ -17,7 +17,7 @@ nav {
     display: flex;
     list-style-type: none;
     margin: 0%;
-    margin-left: 66%;
+    margin-left: 55%;
 }
 
 .ul {
@@ -27,7 +27,7 @@ nav {
 .menu1 {
     text-decoration: none;
     outline: none;
-    padding: 10%;
+    padding: 15%;
     font-size: 1vw;
     color: white;
 }
@@ -43,8 +43,27 @@ nav {
     height: 1.5vw;
 }
 
+#nameartem {
+    display: flex;
+}
+
+#nameimg {
+    width: 40%;
+    height: 40%;
+    border-radius: 1000px;
+    margin-left: auto;
+    margin-right: 8%;
+    margin-top: 10%;
+}
+
+#nemedeveloper {
+    flex-wrap: wrap;
+    padding-top: 15%;
+}
+
 #name {
     font-size: 48px;
+    padding-top: 15%;
 }
 
 #developer {
