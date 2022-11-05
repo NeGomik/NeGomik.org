@@ -21,8 +21,6 @@ nav {
     margin-right: 20%;
 }
 
-.ul {}
-
 .menu1 {
     text-decoration: none;
     outline: none;
@@ -73,12 +71,20 @@ nav {
     font-size: 14px;
 }
 
+#about {
+    margin-top: 58px;
+}
+
 #about1 {
+    display: flex;
     font-size: 48px;
+    justify-content: center;
 }
 
 #aboutme {
+    display: flex;
     font-size: 18px;
+    justify-content: center;
 }
 
 .adres {
