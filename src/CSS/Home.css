@@ -87,12 +87,26 @@ nav {
     justify-content: center;
 }
 
+#myadres {
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .adres {
     font-size: 18px;
 }
 
+#whatido {
+    padding-top: 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
 #whatido1 {
+    padding-top: 125px;
     font-size: 48px;
+    text-align: center;
 }
 
 .whatidome {
@@ -100,10 +114,14 @@ nav {
 }
 
 #myskills1 {
+    padding-top: 140px;
+    text-align: center;
     font-size: 48px;
 }
 
 #Getintouch1 {
+    padding-top: 110px;
+    text-align: center;
     font-size: 48px;
 }
 
