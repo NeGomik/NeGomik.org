@@ -27,10 +27,29 @@ nav {
     padding: 15%;
     font-size: 18px;
     color: white;
+    transition-duration: 1s;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size .3s;
 }
 
-.menu1:focus {
-    font-size: 1.05vw;
+.menu1:hover {
+    animation-name: colormenu;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-size: 100% 1px;
+}
+
+@keyframes colormenu {
+    0% {
+        background-color: #171717;
+    }
+    100% {
+        background-color: #4F4F4F;
+    }
 }
 
 #logo {
@@ -81,8 +100,26 @@ nav {
     background-color: #27AE60;
 }
 
+#DownloadCV:hover {
+    animation-name: DownloadCV;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes DownloadCV {
+    0% {
+        background-color: #27AE60;
+    }
+    50% {
+        background-color: rgb(185, 185, 22);
+    }
+    100% {
+        background-color: #27AE60;
+    }
+}
+
 #about {
-    margin-top: 58px;
+    margin-top: 150px;
 }
 
 #about1 {
@@ -91,10 +128,26 @@ nav {
     justify-content: center;
 }
 
-#aboutme {
+.aboutme {
     display: flex;
     font-size: 18px;
     justify-content: center;
+}
+
+#aboutme1 {
+    margin-top: -10px;
+}
+
+#aboutme2 {
+    margin-top: -10px;
+}
+
+#aboutme3 {
+    margin-top: -10px;
+}
+
+#aboutme4 {
+    margin-top: -10px;
 }
 
 .myadresimg {
@@ -102,7 +155,7 @@ nav {
 }
 
 #myadres {
-    padding-top: 57px;
+    padding-top: 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -119,7 +172,7 @@ nav {
 }
 
 #whatido1 {
-    padding-top: 125px;
+    padding-top: 250px;
     font-size: 48px;
     text-align: center;
 }
@@ -139,8 +192,11 @@ nav {
     font-size: 36px;
 }
 
+#myskills {
+    padding-top: 240px;
+}
+
 #myskills1 {
-    padding-top: 140px;
     text-align: center;
     font-size: 48px;
     padding-bottom: 75px;
@@ -179,8 +235,11 @@ nav {
     padding-left: 15%;
 }
 
+#Getintouch {
+    padding-top: 230px;
+}
+
 #Getintouch1 {
-    padding-top: 110px;
     text-align: center;
     font-size: 48px;
 }
@@ -243,8 +302,14 @@ input {
     padding-right: 35px;
 }
 
+#Submitnow:hover {
+    animation-name: DownloadCV;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
 #negomik2022 {
-    font-size: 14px;
+    font-size: 18px;
     color: #4F4F4F;
     text-align: center;
 }
