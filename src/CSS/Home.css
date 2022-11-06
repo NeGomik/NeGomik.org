@@ -87,6 +87,10 @@ nav {
     justify-content: center;
 }
 
+.myadresimg {
+    padding-left: 34%;
+}
+
 #myadres {
     padding-top: 57px;
     display: flex;
@@ -95,6 +99,7 @@ nav {
 
 .adres {
     font-size: 18px;
+    text-align: center;
 }
 
 #whatido {
@@ -109,7 +114,18 @@ nav {
     text-align: center;
 }
 
+.whatidodiv {
+    width: 230px;
+    height: 169px;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 70px;
+    padding-bottom: 41px;
+    background-color: #212121;
+}
+
 .whatidome {
+    color: #535353;
     font-size: 36px;
 }
 
