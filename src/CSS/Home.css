@@ -54,13 +54,6 @@ nav {
     }
 }
 
-#logo {
-    padding: 0.37%;
-    padding-left: 2%;
-    width: 1.5vw;
-    height: 1.5vw;
-}
-
 #nameartem {
     display: flex;
 }
