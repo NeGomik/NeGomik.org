@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Noto+Sans&family=Shadows+Into+Light&display=swap');
 body {
     background: #171717;
     max-width: 1275px;
@@ -5,8 +6,9 @@ body {
     padding: 0px;
     font-family: sans-serif;
     color: white;
-    font-family: Comfortaa Light;
-    src: url("D:\Программирование\NeGomik\src\Comfortaa-VariableFont_wght.ttf") format("ttf")
+    /* font-family: Comfortaa Light;
+    src: url("D:\Программирование\NeGomik\src\Comfortaa-VariableFont_wght.ttf") format("ttf") */
+    font-family: 'Noto Sans', sans-serif;
 }
 
 nav {
